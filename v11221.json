@@ -1,0 +1,355 @@
+{
+  "axes": [
+    {
+      "scale": "x",
+      "title": "#Sales for months of 2014 compared to 2013, Zip code = 11221",
+      "type": "x"
+    },
+    {
+      "scale": "y",
+      "title": "",
+      "type": "y"
+    }
+  ],
+  "data": [
+    {
+      "name": "table",
+      "values": [
+        {
+          "col": 1,
+          "idx": 1,
+          "val": -0.41379310344827586
+        },
+        {
+          "col": 2,
+          "idx": 1,
+          "val": 0.05
+        },
+        {
+          "col": 3,
+          "idx": 1,
+          "val": 0.0
+        },
+        {
+          "col": 4,
+          "idx": 1,
+          "val": 0.0
+        },
+        {
+          "col": 1,
+          "idx": 2,
+          "val": 0.13043478260869565
+        },
+        {
+          "col": 2,
+          "idx": 2,
+          "val": 0.0
+        },
+        {
+          "col": 3,
+          "idx": 2,
+          "val": 3.0
+        },
+        {
+          "col": 4,
+          "idx": 2,
+          "val": 0.0
+        },
+        {
+          "col": 1,
+          "idx": 3,
+          "val": -0.11764705882352941
+        },
+        {
+          "col": 2,
+          "idx": 3,
+          "val": 0.125
+        },
+        {
+          "col": 3,
+          "idx": 3,
+          "val": 4.0
+        },
+        {
+          "col": 4,
+          "idx": 3,
+          "val": 0.0
+        },
+        {
+          "col": 1,
+          "idx": 4,
+          "val": -0.24
+        },
+        {
+          "col": 2,
+          "idx": 4,
+          "val": 0.18518518518518517
+        },
+        {
+          "col": 3,
+          "idx": 4,
+          "val": 7.0
+        },
+        {
+          "col": 4,
+          "idx": 4,
+          "val": 10.0
+        },
+        {
+          "col": 1,
+          "idx": 5,
+          "val": -0.6206896551724138
+        },
+        {
+          "col": 2,
+          "idx": 5,
+          "val": 0.6
+        },
+        {
+          "col": 3,
+          "idx": 5,
+          "val": 2.75
+        },
+        {
+          "col": 4,
+          "idx": 5,
+          "val": -1.0
+        },
+        {
+          "col": 1,
+          "idx": 6,
+          "val": -0.6428571428571429
+        },
+        {
+          "col": 2,
+          "idx": 6,
+          "val": -0.09375
+        },
+        {
+          "col": 3,
+          "idx": 6,
+          "val": 3.3333333333333335
+        },
+        {
+          "col": 4,
+          "idx": 6,
+          "val": 0.0
+        },
+        {
+          "col": 1,
+          "idx": 7,
+          "val": -0.4444444444444444
+        },
+        {
+          "col": 2,
+          "idx": 7,
+          "val": 0.38461538461538464
+        },
+        {
+          "col": 3,
+          "idx": 7,
+          "val": 1.0
+        },
+        {
+          "col": 4,
+          "idx": 7,
+          "val": 10.0
+        },
+        {
+          "col": 1,
+          "idx": 8,
+          "val": -0.5714285714285714
+        },
+        {
+          "col": 2,
+          "idx": 8,
+          "val": -0.20689655172413793
+        },
+        {
+          "col": 3,
+          "idx": 8,
+          "val": 0.16666666666666666
+        },
+        {
+          "col": 4,
+          "idx": 8,
+          "val": -1.0
+        },
+        {
+          "col": 1,
+          "idx": 9,
+          "val": -0.48
+        },
+        {
+          "col": 2,
+          "idx": 9,
+          "val": 0.0
+        },
+        {
+          "col": 3,
+          "idx": 9,
+          "val": 2.3333333333333335
+        },
+        {
+          "col": 4,
+          "idx": 9,
+          "val": 10.0
+        },
+        {
+          "col": 1,
+          "idx": 10,
+          "val": -0.6666666666666666
+        },
+        {
+          "col": 2,
+          "idx": 10,
+          "val": -0.3
+        },
+        {
+          "col": 3,
+          "idx": 10,
+          "val": 0.0
+        },
+        {
+          "col": 4,
+          "idx": 10,
+          "val": 0.0
+        },
+        {
+          "col": 1,
+          "idx": 11,
+          "val": -0.9655172413793104
+        },
+        {
+          "col": 2,
+          "idx": 11,
+          "val": -0.9629629629629629
+        },
+        {
+          "col": 3,
+          "idx": 11,
+          "val": -0.6
+        },
+        {
+          "col": 4,
+          "idx": 11,
+          "val": 0.0
+        }
+      ]
+    }
+  ],
+  "height": 200,
+  "legends": [
+    {
+      "fill": "color",
+      "offset": 0,
+      "properties": {},
+      "title": "Price Tier"
+    }
+  ],
+  "marks": [
+    {
+      "from": {
+        "data": "table",
+        "transform": [
+          {
+            "keys": [
+              "data.idx"
+            ],
+            "type": "facet"
+          }
+        ]
+      },
+      "marks": [
+        {
+          "properties": {
+            "enter": {
+              "fill": {
+                "field": "data.col",
+                "scale": "color"
+              },
+              "width": {
+                "band": true,
+                "offset": -1,
+                "scale": "pos"
+              },
+              "x": {
+                "field": "data.col",
+                "scale": "pos"
+              },
+              "y": {
+                "field": "data.val",
+                "scale": "y"
+              },
+              "y2": {
+                "scale": "y",
+                "value": 0
+              }
+            }
+          },
+          "type": "rect"
+        }
+      ],
+      "properties": {
+        "enter": {
+          "width": {
+            "band": true,
+            "scale": "x"
+          },
+          "x": {
+            "field": "key",
+            "scale": "x"
+          }
+        }
+      },
+      "scales": [
+        {
+          "domain": {
+            "field": "data.col"
+          },
+          "name": "pos",
+          "range": "width",
+          "type": "ordinal"
+        }
+      ],
+      "type": "group"
+    }
+  ],
+  "padding": {
+    "bottom": 40,
+    "left": 40,
+    "right": 100,
+    "top": 5
+  },
+  "scales": [
+    {
+      "domain": {
+        "data": "table",
+        "field": "data.idx"
+      },
+      "name": "x",
+      "padding": 0.2,
+      "range": "width",
+      "type": "ordinal"
+    },
+    {
+      "domain": {
+        "data": "table",
+        "field": "data.val"
+      },
+      "name": "y",
+      "nice": true,
+      "range": "height"
+    },
+    {
+      "domain": {
+        "data": "table",
+        "field": "data.col"
+      },
+      "name": "color",
+      "range": "category20",
+      "type": "ordinal"
+    }
+  ],
+  "width": 400
+}
