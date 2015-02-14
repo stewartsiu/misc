@@ -1,0 +1,154 @@
+{
+  "axes": [
+    {
+      "scale": "x",
+      "title": "2014 Monthly $ (Zip code = 10301, 2014 Median = $307500)",
+      "type": "x"
+    },
+    {
+      "scale": "y",
+      "title": "",
+      "type": "y"
+    }
+  ],
+  "data": [
+    {
+      "name": "table",
+      "values": [
+        {
+          "col": "SALE PRICE",
+          "idx": 1,
+          "val": 9695076
+        },
+        {
+          "col": "SALE PRICE",
+          "idx": 2,
+          "val": 11015808
+        },
+        {
+          "col": "SALE PRICE",
+          "idx": 3,
+          "val": 8061262
+        },
+        {
+          "col": "SALE PRICE",
+          "idx": 4,
+          "val": 4118798
+        },
+        {
+          "col": "SALE PRICE",
+          "idx": 5,
+          "val": 10659029
+        },
+        {
+          "col": "SALE PRICE",
+          "idx": 6,
+          "val": 10585336
+        },
+        {
+          "col": "SALE PRICE",
+          "idx": 7,
+          "val": 10214749
+        },
+        {
+          "col": "SALE PRICE",
+          "idx": 8,
+          "val": 8018227
+        },
+        {
+          "col": "SALE PRICE",
+          "idx": 9,
+          "val": 6625060
+        },
+        {
+          "col": "SALE PRICE",
+          "idx": 10,
+          "val": 2915000
+        },
+        {
+          "col": "SALE PRICE",
+          "idx": 11,
+          "val": 82000
+        }
+      ]
+    }
+  ],
+  "height": 200,
+  "legends": [],
+  "marks": [
+    {
+      "from": {
+        "data": "table",
+        "transform": [
+          {
+            "keys": [
+              "data.col"
+            ],
+            "type": "facet"
+          }
+        ]
+      },
+      "marks": [
+        {
+          "properties": {
+            "enter": {
+              "stroke": {
+                "field": "data.col",
+                "scale": "color"
+              },
+              "strokeWidth": {
+                "value": 2
+              },
+              "x": {
+                "field": "data.idx",
+                "scale": "x"
+              },
+              "y": {
+                "field": "data.val",
+                "scale": "y"
+              }
+            }
+          },
+          "type": "line"
+        }
+      ],
+      "type": "group"
+    }
+  ],
+  "padding": {
+    "bottom": 40,
+    "left": 80,
+    "right": 10,
+    "top": 5
+  },
+  "scales": [
+    {
+      "domain": {
+        "data": "table",
+        "field": "data.idx"
+      },
+      "name": "x",
+      "range": "width",
+      "type": "linear"
+    },
+    {
+      "domain": {
+        "data": "table",
+        "field": "data.val"
+      },
+      "name": "y",
+      "nice": true,
+      "range": "height"
+    },
+    {
+      "domain": {
+        "data": "table",
+        "field": "data.col"
+      },
+      "name": "color",
+      "range": "category20",
+      "type": "ordinal"
+    }
+  ],
+  "width": 400
+}
